@@ -1,0 +1,39 @@
+@font-face {
+  font-family: "Dimbo";
+  src: url("./font/Dimbo Regular.ttf") format("ttf");
+}
+
+body {
+  font-family: "Dimbo";
+  letter-spacing: 0.03em;
+  text-align: center;
+
+  text-transform: uppercase;
+
+  margin-left: auto;
+  margin-right: auto;
+  margin: auto;
+
+  padding-top: 3%;
+}
+
+img {
+    height: 25rem;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+a {
+  background: #cb4046;
+  border: 6px solid #000000;
+  /* box-sizing: border-box; */
+  border-radius: 10px;
+  padding: 10px;
+  margin-top: 20rem;
+  text-decoration: none;
+  color: #000000;
+  font-size: 2rem;
+  cursor: pointer;
+}
